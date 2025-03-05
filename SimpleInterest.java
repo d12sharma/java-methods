@@ -10,9 +10,10 @@ class SimpleInterest {
 			System.out.println("Enter the time : ");
 			int time = sc.nextInt();
 			
-			CalculateSimpleInterest(principal,rate,time);
+			CalculateSimpleInterest(principal,rate,time);// calling method in main 
 			
 	}
+	// method for calculating simple interest
 	public static void CalculateSimpleInterest(int principal,int rate,int time) {
 			System.out.println("Simple Interest is :"+(principal*rate*time)/100);
 	}
